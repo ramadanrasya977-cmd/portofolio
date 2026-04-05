@@ -98,6 +98,10 @@ background:#764ba2;
 color:white;
 transform:translateY(-5px);
 }
+.dark-mode {
+  background-color: #121212;
+  color: white;
+}
 
 /* PROJECT */
 .project{
