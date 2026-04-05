@@ -157,65 +157,88 @@ width:130px;
 height:130px;
 }
 
-/* TOMBOL DARK MODE */
-.dark-btn{
-margin-top:20px;
-padding:10px 20px;
-border:none;
-border-radius:30px;
-background:white;
-color:#764ba2;
-font-weight:600;
-cursor:pointer;
-transition:.3s;
+/* ===== DARK MODE ===== */
+body.dark-mode {
+  background: linear-gradient(135deg, #0f0f0f, #1c1c1c);
+  color: #f5f5f5;
 }
 
-.dark-btn:hover{
-transform:scale(1.05);
-background:#f0f0f0;
+/* Hero */
+body.dark-mode .hero {
+  color: white;
 }
 
-/* DARK MODE */
-body.dark-mode{
-background:linear-gradient(135deg,#121212,#1f1f1f);
-color:#f5f5f5;
+/* Navbar */
+body.dark-mode nav a {
+  color: white;
 }
 
-body.dark-mode .card{
-background:#1e1e1e;
-color:#f5f5f5;
-box-shadow:0 10px 30px rgba(255,255,255,0.05);
+body.dark-mode nav a:hover {
+  background: white;
+  color: #121212;
 }
 
-body.dark-mode .card h2{
-color:#9d7bff;
+/* Card */
+body.dark-mode .card {
+  background: #1e1e1e;
+  color: #f5f5f5;
+  box-shadow: 0 10px 30px rgba(255,255,255,0.05);
 }
 
-body.dark-mode .skill{
-background:#2a2a2a;
-color:white;
+body.dark-mode .card h2 {
+  color: #b794ff;
 }
 
-body.dark-mode .skill:hover{
-background:#9d7bff;
-color:white;
+/* Skill box */
+body.dark-mode .skill {
+  background: #2b2b2b;
+  color: white;
 }
 
-body.dark-mode .project{
-background:#2a2a2a;
-color:white;
+body.dark-mode .skill:hover {
+  background: #8f5fff;
+  color: white;
 }
 
-body.dark-mode nav a:hover{
-background:white;
-color:#121212;
+/* Project box */
+body.dark-mode .project {
+  background: #2b2b2b;
+  color: white;
 }
 
-body.dark-mode a{
-color:#b89cff;
+body.dark-mode .project:hover {
+  box-shadow: 0 10px 25px rgba(255,255,255,0.08);
 }
 
-body.dark-mode .dark-btn{
-background:#333;
-color:white;
+/* Footer */
+body.dark-mode footer {
+  color: white;
+}
+
+/* Link */
+body.dark-mode a {
+  color: #c5a3ff;
+}
+
+/* Tombol Dark Mode */
+.dark-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 30px;
+  background: white;
+  color: #764ba2;
+  font-weight: 600;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.dark-btn:hover {
+  transform: scale(1.05);
+  background: #f1f1f1;
+}
+
+body.dark-mode .dark-btn {
+  background: #333;
+  color: white;
 }
