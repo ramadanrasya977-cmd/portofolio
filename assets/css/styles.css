@@ -242,3 +242,96 @@ body.dark-mode .dark-btn {
   background: #333;
   color: white;
 }
+/* =========================
+   DARK MODE
+========================= */
+
+body.dark-mode{
+background:linear-gradient(135deg,#0f0f0f,#1c1c1c) !important;
+color:#f5f5f5 !important;
+}
+
+/* HERO */
+body.dark-mode .hero{
+color:white !important;
+}
+
+/* NAV */
+body.dark-mode nav a{
+color:white !important;
+}
+
+body.dark-mode nav a:hover{
+background:white !important;
+color:#121212 !important;
+}
+
+/* CARD */
+body.dark-mode .card{
+background:#1e1e1e !important;
+color:#f5f5f5 !important;
+box-shadow:0 10px 30px rgba(255,255,255,0.05) !important;
+}
+
+body.dark-mode .card h2{
+color:#b794ff !important;
+}
+
+/* SKILLS */
+body.dark-mode .skill{
+background:#2b2b2b !important;
+color:white !important;
+}
+
+body.dark-mode .skill:hover{
+background:#8f5fff !important;
+color:white !important;
+}
+
+/* PROJECT */
+body.dark-mode .project{
+background:#2b2b2b !important;
+color:white !important;
+}
+
+body.dark-mode .project:hover{
+box-shadow:0 10px 25px rgba(255,255,255,0.08) !important;
+}
+
+/* FOOTER */
+body.dark-mode footer{
+color:white !important;
+}
+
+/* LINK */
+body.dark-mode a{
+color:#c5a3ff !important;
+}
+
+/* PROFILE */
+body.dark-mode .profile{
+border:5px solid #b794ff !important;
+}
+
+/* DARK MODE BUTTON */
+.dark-btn{
+margin-top:20px;
+padding:10px 20px;
+border:none;
+border-radius:30px;
+background:white;
+color:#764ba2;
+font-weight:600;
+cursor:pointer;
+transition:.3s;
+}
+
+.dark-btn:hover{
+transform:scale(1.05);
+background:#f1f1f1;
+}
+
+body.dark-mode .dark-btn{
+background:#333 !important;
+color:white !important;
+}
